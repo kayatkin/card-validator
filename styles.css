@@ -1,0 +1,60 @@
+ul.cards {
+    list-style-type: none;
+    margin: 10px 0;
+    height:25px
+}
+
+.card {
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-indent: -9999px;
+    background-position: 0 0;
+    margin-right: 4px;
+}
+
+.active {
+    background-size: cover; /* Сохраняет соотношение сторон изображения */
+    background-repeat: no-repeat; /* Предотвращает повторение фона */
+    display: block; /* Показывает элемент */
+    width: 100px; /* Установите желаемую ширину */
+    height: 100px; /* Установите желаемую высоту */
+}
+
+/* Ваши селекторы карт продолжают работать без изменений */
+.visa {
+    background-image: url(img/card-visa.png);
+}
+
+.master {
+    background-image: url(img/card-master.png);
+}
+
+.amex {
+    /* Устанавливаем размеры и другие свойства иконки */
+    width: 100px; /* Установите желаемую ширину */
+    height: 100px; /* Установите желаемую высоту */
+    display: inline-block; /* Позволяет элементу быть встроенным в потоке контента */
+    /* Устанавливаем изображение фона */
+    background-image: url('img/card-amex.jpeg'); /* Укажите путь к вашему изображению */
+    background-size: contain; /* Масштабируем изображение так, чтобы оно целиком помещалось в заданные размеры */
+    background-repeat: no-repeat; /* Отключаем повторение изображения */
+    background-position: center; /* Позиционируем изображение по центру */
+    /* Добавляем дополнительные свойства, если необходимо */
+}
+
+.discover {
+    background-image: url(img/card-discover.png);
+}
+
+.jcb {
+    background-image: url(img/card-jcb.png);
+}
+
+.diners_club {
+    background-image: url(img/card-dinersclub.png);
+}
+
+.mir {
+    background-image: url(img/card-mir.png);
+}
