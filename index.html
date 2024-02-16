@@ -12,29 +12,30 @@
         <h3>Check your credit card number</h3>
         <ul class="cards">
             <li>
-                <span id="visa-icon" class="card visa" title="Visa">Visa</span>
+                <span class="card-icon" id="visa-icon" data-system="Visa"></span>
             </li>
             <li>
-                <span id="mastercard-icon" class="card master" title="Mastercard">Mastercard</span>
+                <span class="card-icon" id="mastercard-icon" data-system="MasterCard"></span>
             </li>
             <li>
-                <span id="amex-icon" class="card amex" title="American Express">American Express</span>
+                <span class="card-icon" id="amex-icon" data-system="American Express"></span>
             </li>
             <li>
-                <span id="discover-icon" class="card discover" title="Discover">Discover</span>
+                <span class="card-icon" id="discover-icon" data-system="Discover"></span>
             </li>
             <li>
-                <span id="jcb-icon" class="card jcb" title="JCB">JCB</span>
+                <span class="card-icon" id="jcb-icon" data-system="JCB"></span>
             </li>
             <li>
-                <span id="diners_club-icon" class="card diners_club" title="Diners Club">Diners Club</span>
+                <span class="card-icon" id="diners_club-icon" data-system="Diners Club"></span>
             </li>
             <li>
-                <span id="mir-icon" class="card mir" title="MIR">MIR</span>
+                <span class="card-icon" id="mir-icon" data-system="Mir"></span>
             </li>
         </ul>
-        <input type="text" id="card-number-input" placeholder="Введите номер карты">
-        <button id="validate-button">Проверить</button>        
+        <input type="text" id="card-number-input" maxlength="16" placeholder="Введите номер карты">
+        <button id="validate-button">Проверить</button>    
+        <div id="payment-system-info"></div>    
     </div>   
 </body>
 </html>
